@@ -18,11 +18,10 @@
 
 
 ## Codigo
-### Scanner para entrada de dados do usuário
-  
-#### Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+Scanner para entrada de dados do usuário
+Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-#### Solicitação e leitura dos dados da conta
+        //Solicitação e leitura dos dados da conta
         System.out.println("Por favor, digite o número da Agência: ");
         agencia = scanner.next();
 
@@ -38,7 +37,7 @@
         // Fechamento do scanner
         scanner.close();
 
-#### Exibição da mensagem final
+        //Exibição da mensagem final
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, " +
                 "sua agência é " + agencia + ", conta " + numero + " e seu saldo R$" + saldo + " já está disponível para saque.");
   
