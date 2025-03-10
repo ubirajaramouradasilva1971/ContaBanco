@@ -9,8 +9,9 @@
 
 ### Variaveis
 
-|int numero | Número da conta bancária |
+|Declaração da variavel | Documentação |
 |------------|--------------------------| 
+|int numero | Número da conta bancária |
 |String agencia|Número da agência bancária|
 |String nomeCliente|Nome do cliente|
 |double saldo|Saldo da conta|
